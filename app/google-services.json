@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245204096622",
+    "firebase_url": "https://bistrochat-8cc8a.firebaseio.com",
+    "project_id": "bistrochat-8cc8a",
+    "storage_bucket": "bistrochat-8cc8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245204096622:android:0536babd3e1b481f7bf87f",
+        "android_client_info": {
+          "package_name": "com.example.bistro_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245204096622-gbgq7pe2a62l9adm5fd8vh7cu00c7vm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bistro_chat",
+            "certificate_hash": "c6123d6a0f8cd2ffc23374dc4f3b3e6f2b98b84d"
+          }
+        },
+        {
+          "client_id": "245204096622-r0h2n6394r2pfj8qghs3qdt89t4o3kbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI5LuMqA3PRT2sDgIsJVS_8eoEM23F77Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245204096622-r0h2n6394r2pfj8qghs3qdt89t4o3kbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

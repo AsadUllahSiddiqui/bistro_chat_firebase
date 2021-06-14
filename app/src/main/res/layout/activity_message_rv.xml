@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    tools:context=".message_rv">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:id="@+id/msngr_pic"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_search_24"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/the_msg"
+        android:layout_centerVertical="true"
+        android:hint="helsdmcjskdvslo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_right"></TextView>
+
+</LinearLayout>

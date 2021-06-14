@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context=".chat_container">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_alignParentLeft="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/Header_profile"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/abc"
+        app:civ_circle_background_color="#d4d4d4"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/Header_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Asad Ullah"
+        android:textColor="#000000"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/Header_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Header_user_name"
+        android:text="i170170@nu.edu.pk"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#c3c3c3"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"></LinearLayout>
+
+</RelativeLayout>

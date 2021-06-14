@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c3c3c3"
+    tools:context=".my_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_weight="6"
+            android:background="#c3c3c3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+
+        <LinearLayout
+            android:paddingHorizontal="25dp"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/niceone"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_weight="2"
+                android:id="@+id/p1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="MY PROFILE"
+                    android:textColor="#c3c3c3" />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="6dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:src="@drawable/bar" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_height="0dp">
+
+                <RelativeLayout
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/user_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/abc"></de.hdodenhof.circleimageview.CircleImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:id="@+id/p2"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="User Name"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_below="@+id/user_name"
+                        android:id="@+id/user_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="123124124"
+                        android:textSize="10dp"
+                        android:textColor="#c3c3c3"></TextView>
+
+                    <TextView
+                        android:layout_below="@+id/user_number"
+                        android:id="@+id/user_gender_age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male,24"
+                        android:textSize="10dp"
+                        android:textColor="#c3c3c3"></TextView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/edit_button"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/edit_button"
+                        android:adjustViewBounds="true"
+                        android:layout_centerInParent="true"
+                        android:maxWidth="120dp"
+                        android:maxHeight="70dp"
+                        android:scaleType="fitCenter"
+                        android:background="@null"
+                        android:layout_marginLeft="3dp">
+
+                    </ImageButton>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:orientation="vertical"
+                android:weightSum="6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <RelativeLayout
+                    android:layout_weight="2"
+                    android:id="@+id/p3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/coln"></ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="4"
+                    android:id="@+id/p4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:id="@+id/user_bio"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="#c3c3c3"
+                        android:text="Lorem ipsum dolor sit amet, consetetur sadiping elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna
+aliquyam erat, sed diam voluptua. At vero eos et accusam et" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
